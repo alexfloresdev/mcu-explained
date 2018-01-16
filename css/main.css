@@ -105,10 +105,17 @@ font-family: 'Merriweather', serif;
 
 
 
+body {
+	font-family: 'Merriweather', serif;
+}
 
+h1, h2, h3, h4 {
+	font-family: 'Raleway', sans-serif;
+}
 
-
-
+img {
+	width: 100%;
+}
 
 
 

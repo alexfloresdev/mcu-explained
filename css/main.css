@@ -126,6 +126,37 @@ li {
 }
 
 
+header {
+	background-color: #780002;
+	color: white;
+	padding: 10px;
+	margin: 0px;
+	
+}
+
+.dropdown-menu {
+	left: -100px;
+}
+
+
+.mcu-initials {
+	color: #b6b9b2;
+}
+
+button.btn.btn-primary {
+	border-radius: 0px;
+	border-color: #780002;
+	background: white;
+	font-family: 'Raleway', sans-serif;
+	color: #780002;
+	font-size: 1.3rem;
+}
+
+button.btn.btn-primary a {
+	color: #780002;
+	
+}
+
 
 
 /* ==========================================================================

@@ -25,16 +25,13 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-
+	<header>
+		<h1 class="text-left">
+			the <br><span class="mcu-initials">M</span>arvel <br><span class="mcu-initials">C</span>inematic <br><span class="mcu-initials">U</span>niverse
+		</h1>
+	</header>
+  
    <div class="container">
-	<div class="row">
-		<div class="col-sm-12">
-			
-			<h1 class="text-left">
-				the <br>Marvel <br>Cinematic <br>Universe
-			</h1>
-		</div>
-	</div>
 	
 	
 <!--	NAVIGATION-->
@@ -46,12 +43,62 @@
 				</a>
 			</nav>
 		</div>
+		
+		
 		<div class="col-sm-4">
-			<nav class="text-center">
-				<a href="index.html#mcu-movies-link">
-                        Movies
-				</a>
-			</nav>
+			
+				
+				<div class="dropdown text-center">
+					<div class="btn-group">
+						<button class="btn btn-primary">
+							
+							<a href="index.html#mcu-movies-link">Movies</a>
+						</button>
+						
+						<button type="button" data-toggle="dropdown" id="movies" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle">
+						
+						<span class="caret"></span>
+						<span class="sr-only">Toggle Dropdown</span>
+					</button>	
+					
+					<ul class="dropdown-menu" aria-labelledby="movies">
+						<li class="dropdown-header">Phase 01</li>
+						<li><a href="#">Iron Man</a></li>
+						<li><a href="#">Incredible Hulk</a></li>
+						<li><a href="#">Iron Man 2</a></li>
+						<li><a href="#">Thor</a></li>
+						<li><a href="#">Captain America: The First Avenger</a></li>
+						<li><a href="#">The Avengers</a></li>
+						<li class="divider" role="separator"></li>
+						<li class="dropdown-header">Phase 02</li>
+						<li><a href="#">Iron Man 3</a></li>
+						<li><a href="#">Thor: The Dark World</a></li>
+						<li><a href="#">Captain America: The Winter Soldier</a></li>
+						<li><a href="#">Guardians of the Galaxy</a></li>
+						<li><a href="#">Avengers: Age of Ultron</a></li>
+						<li><a href="#">Ant-Man</a></li>
+						<li class="divider" role="separator"></li>
+						<li class="dropdown-header">Phase 03</li>
+						<li><a href="#">Captain America: Civil War</a></li>
+						<li><a href="#">Doctor Strange</a></li>
+						<li><a href="#">Guardians of the Galaxy Vol.2</a></li>
+						<li><a href="#">Thor: Ragnarok</a></li>
+						<li><a href="#">Black Panther</a></li>
+						<li><a href="#">Avengers: Infinity War</a></li>
+						<li><a href="#">Ant-Man and The Wasp</a></li>
+						
+						
+					</ul>
+					</div>
+					
+					
+					
+					
+				</div>
+				
+                       
+                 
+			
 		</div>
 		<div class="col-sm-4">
 			<nav class="text-center">
@@ -2197,7 +2244,8 @@
 			</div>
 	</div>
 </div>
-        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
         
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>

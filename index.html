@@ -36,74 +36,122 @@
 	
 <!--	NAVIGATION-->
 	<div class="row navigation">
-		<div class="col-sm-4">
-			<nav class="text-center">
-				<a href="#">
-                        Home
-				</a>
-			</nav>
-		</div>
 		
 		
-		<div class="col-sm-4">
-				<div class="dropdown text-center">
-					<div class="btn-group">
-						<button class="btn btn-primary">
-							<a href="index.html#mcu-movies-link">Movies</a>
-						</button>
-						
-						<button type="button" data-toggle="dropdown" id="movies" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle">
-						
-						<span class="caret"></span>
-						<span class="sr-only">Toggle Dropdown</span>
-					</button>	
-					
-					<ul class="dropdown-menu" aria-labelledby="movies">
-						<li class="dropdown-header">Phase 01</li>
-						<li><a href="#movie-iron-man">Iron Man</a></li>
-						<li><a href="#movie-incredible-hulk">Incredible Hulk</a></li>
-						<li><a href="#movie-iron-man-2">Iron Man 2</a></li>
-						<li><a href="#movie-thor">Thor</a></li>
-						<li><a href="#movie-captain-america">Captain America: The First Avenger</a></li>
-						<li><a href="#movie-avengers">The Avengers</a></li>
-						
-						
-						<li class="divider" role="separator"></li>
-						<li class="dropdown-header">Phase 02</li>
-						<li><a href="#movie-iron-man-3">Iron Man 3</a></li>
-						<li><a href="#movie-thor-dark-world">Thor: The Dark World</a></li>
-						<li><a href="#movie-winter-soldier">Captain America: The Winter Soldier</a></li>
-						<li><a href="#movie-guardians">Guardians of the Galaxy</a></li>
-						<li><a href="#movie-ultron">Avengers: Age of Ultron</a></li>
-						<li><a href="#movie-ant-man">Ant-Man</a></li>
-						
-						<li class="divider" role="separator"></li>
-						<li class="dropdown-header">Phase 03</li>
-						<li><a href="#movie-civil-war">Captain America: Civil War</a></li>
-						<li><a href="#movie-doctor-strange">Doctor Strange</a></li>
-						<li><a href="#movie-guardians-2">Guardians of the Galaxy Vol.2</a></li>
-						<li><a href="#movie-spider-man">Spider-Man Homecoming</a></li>
-						<li><a href="#movie-thor-ragnarok">Thor: Ragnarok</a></li>
-						<li><a href="#movie-black-panther">Black Panther</a></li>
-						<li><a href="#movie-avengers-infinity">Avengers: Infinity War</a></li>
-						<li><a href="#movie-ant-man-wasp">Ant-Man and The Wasp</a></li>
-						
-						
-					</ul>
-					</div>
+		<nav>
+<!--			HOME BUTTON-->
+			<div class="col-sm-4">
+				<div class="text-center home-button">
+					<button class="btn btn-primary">
+							<a href="index.html">Home</a>
+					</button>
 				</div>
-				
-                       
-                 
-			
-		</div>
-		<div class="col-sm-4">
-			<nav class="text-center">
-				<a href="index.html#mcu-characters-link">
-                        Characters
-				</a>
-			</nav>
-		</div>
+
+			</div>
+
+
+<!--			MOVIES BUTTON		-->
+			<div class="col-sm-4">
+					<div class="dropdown text-center movies-button">
+						<div class="btn-group">
+							<button class="btn btn-primary">
+								<a href="index.html#mcu-movies-link">Movies</a>
+							</button>
+
+							<button type="button" data-toggle="dropdown" id="movies" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle">
+
+							<span class="caret"></span>
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>	
+
+						<ul class="dropdown-menu movie-menu" aria-labelledby="movies">
+							<li class="dropdown-header">Phase 01</li>
+							<li><a href="#movie-iron-man">Iron Man</a></li>
+							<li><a href="#movie-incredible-hulk">Incredible Hulk</a></li>
+							<li><a href="#movie-iron-man-2">Iron Man 2</a></li>
+							<li><a href="#movie-thor">Thor</a></li>
+							<li><a href="#movie-captain-america">Captain America: The First Avenger</a></li>
+							<li><a href="#movie-avengers">The Avengers</a></li>
+
+
+							<li class="divider" role="separator"></li>
+							<li class="dropdown-header">Phase 02</li>
+							<li><a href="#movie-iron-man-3">Iron Man 3</a></li>
+							<li><a href="#movie-thor-dark-world">Thor: The Dark World</a></li>
+							<li><a href="#movie-winter-soldier">Captain America: The Winter Soldier</a></li>
+							<li><a href="#movie-guardians">Guardians of the Galaxy</a></li>
+							<li><a href="#movie-ultron">Avengers: Age of Ultron</a></li>
+							<li><a href="#movie-ant-man">Ant-Man</a></li>
+
+							<li class="divider" role="separator"></li>
+							<li class="dropdown-header">Phase 03</li>
+							<li><a href="#movie-civil-war">Captain America: Civil War</a></li>
+							<li><a href="#movie-doctor-strange">Doctor Strange</a></li>
+							<li><a href="#movie-guardians-2">Guardians of the Galaxy Vol.2</a></li>
+							<li><a href="#movie-spider-man">Spider-Man Homecoming</a></li>
+							<li><a href="#movie-thor-ragnarok">Thor: Ragnarok</a></li>
+							<li><a href="#movie-black-panther">Black Panther</a></li>
+							<li><a href="#movie-avengers-infinity">Avengers: Infinity War</a></li>
+							<li><a href="#movie-ant-man-wasp">Ant-Man and The Wasp</a></li>
+
+
+						</ul>
+						</div>
+					</div>
+
+			</div>
+
+
+<!--				CHARACTERS BUTTON-->
+			<div class="col-sm-4">
+				<div class="dropdown text-center characters-button">
+						<div class="btn-group">
+							<button class="btn btn-primary">
+								<a href="index.html#mcu-characters-link">Characters</a>
+							</button>
+
+							<button type="button" data-toggle="dropdown" id="characters" aria-haspopup="true" aria-expanded="true" class="btn btn-primary dropdown-toggle">
+
+							<span class="caret"></span>
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>	
+
+						<ul class="dropdown-menu character-menu" aria-labelledby="characters">
+							<li><a href="#character-ant-man">Ant-Man</a></li>
+							<li><a href="#character-black-panther">Black Panther</a></li>
+							<li><a href="#character-black-widow">Black Widow</a></li>
+							<li><a href="#character-captain-america">Captain America</a></li>
+							<li><a href="#character-drax">Drax the Destroyer</a></li>
+							<li><a href="#character-doctor-strange">Doctor Strange</a></li>
+
+							<li><a href="#character-the-falcon">The Falcon</a></li>
+							<li><a href="#character-gamora">Gamora</a></li>
+							<li><a href="#character-groot">Groot</a></li>
+							<li><a href="#character-hawkeye">Hawkeye</a></li>
+							<li><a href="#character-hulk">The Hulk</a></li>
+							<li><a href="#character-iron-man">Iron Man</a></li>
+
+							<li><a href="#character-loki">Loki</a></li>
+							<li><a href="#character-mantis">Mantis</a></li>
+							<li><a href="#character-nebula">Nebula</a></li>
+							<li><a href="#character-nick-fury">Nick Fury</a></li>
+							<li><a href="#character-rocket-raccoon">Rocket Raccon</a></li>
+							<li><a href="#character-scarlet-witch">Scarlet Witch</a></li>
+							<li><a href="#character-spider-man">Spider-Man</a></li>
+							<li><a href="#character-starlord">Starlord</a></li>
+							<li><a href="#character-thor">Thor</a></li>
+							<li><a href="#character-vision">The Vision</a></li>
+							<li><a href="#character-war-machine">War Machine</a></li>
+							<li><a href="#character-winter-soldier">The Winter Soldier</a></li>
+
+
+						</ul>
+						</div>
+					</div>
+					
+			</div>
+
+		</nav>
 		
 	</div>
 	
@@ -1637,8 +1685,11 @@
 		<div class="col-sm-12 text-center">
 			<a href="#back-to-top-link"><i>back to top</i></a>
 		</div>
-		<div class="row">
+			<div class="row">
+				
+<!--				ANT-MAN CHARACTER-->
 				<div class="col-sm-4">
+					<a name="character-ant-man"></a>
 					<h3 class="text-center">Ant-Man</h3>
 					<img alt="ant-man-character" src="img/character-ant-man.jpg" />
 					
@@ -1668,9 +1719,12 @@
 				</div>
 			
 			
+<!--					BLACK PANTHER CHARACTER-->
 				<div class="col-sm-4">
-					<h3 class="text-center">Black Panther</h3>
-					<img alt="black-panther-character" src="img/character-black-panther.jpg" />
+					<a name="character-black-panther"></a>
+						<h3 class="text-center">Black Panther</h3>
+						<img alt="black-panther-character" src="img/character-black-panther.jpg" />
+					
 					
 					<h4>Played By:</h4>
 					<ul>
@@ -1696,7 +1750,11 @@
 						<li>Avengers: Infinity War</li>
 					</ol>
 				</div>
+				
+				
+<!--				BLACK WIDOW CHARACTER-->
 				<div class="col-sm-4">
+					<a name="character-black-widow"></a>
 					<h3 class="text-center">Black Widow</h3>
 					<img alt="black-widow-character" src="img/character-black-widow.jpg"  />
 					<h4>Played By:</h4>
@@ -1727,8 +1785,13 @@
 					
 				</div>
 			</div>
+			
+			
 			<div class="row">
+			
+<!--			CAPTAIN AMERICA CHARACTER-->
 				<div class="col-sm-4">
+					<a name="character-captain-america"></a>
 					<h3 class="text-center">Captain America</h3>
 					<img alt="captain-america-character" src="img/character-captain-america.jpg" />
 					<h4>Played By:</h4>
@@ -1759,8 +1822,9 @@
 				</div>
 				
 
-				
+<!--				DRAX THE DESTROYER-->				
 				<div class="col-sm-4">
+					<a name="character-drax"></a>
 					<h3 class="text-center">Drax the Destroyer</h3>
 					<img alt="drax-the-destroyer-character" src="img/character-drax.jpg"  />
 					<h4>Played By:</h4>
@@ -1785,8 +1849,12 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+				
+<!--				DOCTOR STRANGE-->
 				<div class="col-sm-4">
-					<h3 class="text-center">Dr. Strange</h3>
+					<a name="character-doctor-strange"></a>
+					<h3 class="text-center">Doctor Strange</h3>
 					<img alt="dr-strange-character" src="img/character-dr-strange.jpg"   />
 					<h4>Played By:</h4>
 					<ul>
@@ -1815,7 +1883,10 @@
 			
 			
 			<div class="row">
+			
+<!--				THE FALCON-->
 				<div class="col-sm-4">
+					<a name="character-the-falcon"></a>
 					<h3 class="text-center">The Falcon</h3>
 					<img alt="falcon-character" src="img/character-falcon.jpg"  />
 					<h4>Played By:</h4>
@@ -1843,7 +1914,9 @@
 					</ul>
 				</div>
 				
+<!--				GAMORA-->
 				<div class="col-sm-4">
+					<a name="character-gamora"></a>
 					<h3 class="text-center">Gamora</h3>
 					<img alt="gamora-character" src="img/character-gamora.jpg"   />
 					<h4>Played By:</h4>
@@ -1868,7 +1941,10 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+<!--				GROOT-->
 				<div class="col-sm-4">
+					<a name="character-groot"></a>
 					<h3 class="text-center">Groot</h3>
 					<img alt="groot-character" src="img/character-groot.jpg" />
 					<h4>Played By:</h4>
@@ -1895,7 +1971,10 @@
 				
 			</div>
 			<div class="row">
+			
+<!--				HAWKEYE-->
 				<div class="col-sm-4">
+					<a name="character-hawkeye"></a>
 					<h3 class="text-center">Hawkeye</h3>
 					<img alt="hawkeye-character" src="img/character-hawkeye.jpg" />
 					<h4>Played By:</h4>
@@ -1923,7 +2002,10 @@
 					</ul>
 				</div>
 				
+				
+<!--				THE HULK-->
 				<div class="col-sm-4">
+					<a name="character-hulk"></a>
 					<h3 class="text-center">The Hulk</h3>
 					<img alt="the-hulk-character" src="img/character-hulk.jpg" />
 					<h4>Played By:</h4>
@@ -1951,7 +2033,10 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+<!--				IRON MAN-->
 				<div class="col-sm-4">
+					<a name="character-iron-man"></a>
 					<h3 class="text-center">Iron Man</h3>
 					<img alt="iron-man-character" src="img/character-iron-man.jpg" />
 					<h4>Played By:</h4>
@@ -1985,7 +2070,10 @@
 				
 			</div>
 			<div class="row">
+			
+<!--				LOKI-->
 				<div class="col-sm-4">
+					<a name="character-loki"></a>
 					<h3 class="text-center">Loki</h3>
 					<img alt="loki-character" src="img/character-loki.jpg" />
 					<h4>Played By:</h4>
@@ -2012,7 +2100,10 @@
 					</ul>
 				</div>
 				
+				
+<!--				MANTIS-->
 				<div class="col-sm-4">
+					<a name="character-mantis"></a>
 					<h3 class="text-center">Mantis</h3>
 					<img alt="mantis-character" src="img/character-mantis.jpg" />
 					<h4>Played By:</h4>
@@ -2037,7 +2128,10 @@
 					</ul>
 				</div>
 				
+				
+<!--				NEBULA-->
 				<div class="col-sm-4">
+					<a name="character-nebula"></a>
 					<h3 class="text-center">Nebula</h3>
 					<img alt="nebula-character" src="img/character-nebula.jpg" />
 					<h4>Played By:</h4>
@@ -2066,7 +2160,10 @@
 				
 			</div>
 			<div class="row">
+			
+<!--				NICK FURY-->
 				<div class="col-sm-4">
+					<a name="character-nick-fury"></a>
 					<h3 class="text-center">Nick Fury</h3>
 					<img alt="nick-fury-character" src="img/character-nick-fury.jpg" />
 					<h4>Played By:</h4>
@@ -2092,7 +2189,10 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+<!--				ROCKET RACCOON-->
 				<div class="col-sm-4">
+					<a name="character-rocket-raccoon"></a>
 					<h3 class="text-center">Rocket Raccoon</h3>
 					<img alt="rocket-raccoon-character" src="img/character-rocket-raccoon.jpg" />
 					<h4>Played By:</h4>
@@ -2117,7 +2217,9 @@
 					</ul>
 				</div>
 				
+<!--				SCARLET WITCH-->
 				<div class="col-sm-4">
+					<a name="character-scarlet-witch"></a>
 					<h3 class="text-center">Scarlet Witch</h3>
 					<img alt="scarlet-witch-character" src="img/character-scarlet-witch.jpg" />
 					<h4>Played By:</h4>
@@ -2146,7 +2248,10 @@
 				
 			</div>
 			<div class="row">
+			
+<!--				SPIDER-MAN-->
 				<div class="col-sm-4">
+					<a name="character-spider-man"></a>
 					<h3 class="text-center">Spider-Man</h3>
 					<img alt="spider-man-character" src="img/character-spider-man.jpg" />
 					<h4>Played By:</h4>
@@ -2171,7 +2276,10 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+<!--				STARLORD-->
 				<div class="col-sm-4">
+					<a name="character-starlord"></a>
 					<h3 class="text-center">Starlord</h3>
 					<img alt="starlord-character" src="img/character-starlord.jpg" />
 					<h4>Played By:</h4>
@@ -2198,7 +2306,9 @@
 					</ul>
 				</div>
 				
+<!--				THOR-->
 				<div class="col-sm-4">
+					<a name="character-thor"></a>
 					<h3 class="text-center">Thor</h3>
 					<img alt="thor-character" src="img/character-thor.jpg" />
 					<h4>Played By:</h4>
@@ -2230,7 +2340,10 @@
 				
 			</div>
 			<div class="row">
+			
+<!--				THE VISION-->
 				<div class="col-sm-4">
+					<a name="character-vision"></a>
 					<h3 class="text-center">Vision</h3>
 					<img alt="vision-character" src="img/character-vision.jpg" />
 					<h4>Played By:</h4>
@@ -2254,7 +2367,10 @@
 						<li>Avengers: Infinity War</li>
 					</ul>
 				</div>
+				
+<!--				WAR MACHINE-->
 				<div class="col-sm-4">
+					<a name="character-war-machine"></a>
 					<h3 class="text-center">War Machine</h3>
 					<img alt="war-machine-character" src="img/character-war-machine.jpg" />
 					<h4>Played By:</h4>
@@ -2287,7 +2403,9 @@
 					</ul>
 				</div>
 				
+<!--				THE WINTER SOLDIER-->
 				<div class="col-sm-4">
+					<a name="character-winter-soldier"></a>
 					<h3 class="text-center">The Winter Solider</h3>
 					<img alt="winter-soldier-character" src="img/character-winter-soldier.jpg" />
 					<h4>Played By:</h4>
@@ -2312,13 +2430,6 @@
 					<ul>
 						<li>Avengers: Infinity War</li>
 					</ul>
-				</div>
-				
-				<div class="col-sm-4">
-				</div>
-				
-				<div class="col-sm-4">
-					
 				</div>
 				
 			</div>

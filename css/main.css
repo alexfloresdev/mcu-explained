@@ -134,8 +134,12 @@ header {
 	
 }
 
-.dropdown-menu {
+.movie-menu {
 	left: -67px;
+}
+
+.character-menu {
+	left: 40px;
 }
 
 .dropdown-header {
@@ -232,6 +236,15 @@ button.btn.btn-primary a:active {
 	color: white;
 	
 }
+
+nav button.btn {
+	margin: 15px 0px;
+	
+	
+}
+
+
+
 
 
 /* ==========================================================================

@@ -135,13 +135,49 @@ header {
 }
 
 .dropdown-menu {
-	left: -100px;
+	left: -67px;
 }
 
+.dropdown-header {
+	font-family: 'Raleway', sans-serif;
+	color: #780002;
+}
 
 .mcu-initials {
 	color: #b6b9b2;
 }
+
+
+
+.btn-group>.btn+.dropdown-toggle {
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.btn-group>.btn+.dropdown-toggle:hover {
+	
+	color: white
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+	background-color: #780002;
+	border-color: #780002;
+
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+		background-color: #780002;
+
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+}
+
+
+.btn:hover {
+	color: white
+}
+
 
 button.btn.btn-primary {
 	border-radius: 0px;
@@ -152,11 +188,35 @@ button.btn.btn-primary {
 	font-size: 1.3rem;
 }
 
+
+button.btn.btn-primary:hover {
+	background-color: #780002;
+}
+
+button.btn.btn-primary:hover > a {
+	background-color: #780002;
+	color: white;
+
+}
+
+
 button.btn.btn-primary a {
 	color: #780002;
 	
 }
 
+
+ button.btn.btn-primary a:hover  {
+	color: white;
+	text-decoration: none;
+	
+}
+
+
+button.btn.btn-primary a:active {
+	color: white;
+	
+}
 
 
 /* ==========================================================================

@@ -257,6 +257,51 @@ nav button.btn {
 	padding: 6px 0px;
 }
 
+.one {
+	margin-left: 12%;
+}
+
+.two {
+	margin-left: 34%;
+}
+
+.three {
+	margin-left: 58%;
+}
+
+.panel-body {
+	padding: 16px 0px;
+}
+
+.panel-body ul {
+	padding-left: 35px;
+	padding-right: 10px;
+}
+
+.charIntro {
+	margin-bottom: 10px;
+}
+
+.charIntroPic {
+	padding-left: 0px;
+	margin-top: 10px;
+}
+
+.charIntroCopy {
+	padding-right: 0px;
+	
+}
+
+.img-thumbnail {
+	padding: 0px;
+}
+
+.fullSectionImage {
+	margin-bottom: 10px;
+	padding: 0px;
+	
+	
+}
 
 /* ==========================================================================
    Helper classes
@@ -349,9 +394,10 @@ nav button.btn {
    ========================================================================== */
 
 @media (max-width: 767px){
-	.img-responsive {
-		max-width: 100%;
-		min-width: 70%;
+	
+	.content-section {
+		max-width: 570px;
+		margin: auto;
 	}
 }
 

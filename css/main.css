@@ -313,6 +313,10 @@ nav button.btn {
 	padding: 6px 0px;
 }
 
+.panel-default>.panel-heading {
+	background-color: #ddd;
+	color: #780002;
+}
 
 
 .panel-body {

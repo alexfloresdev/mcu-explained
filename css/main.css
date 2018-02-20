@@ -311,8 +311,7 @@ nav button.btn {
 
 
 
-
-.btn.logo {
+.movielogo {
 	padding: 6px 0px;
 	max-height: 100%;
 	overflow: hidden;
@@ -510,7 +509,7 @@ footer {
 		margin-left: 64%;
 	}
 	
-	.btn.logo {
+	.movielogo {
 		
 		max-height: 93px;
 		
@@ -519,7 +518,7 @@ footer {
 }
 
 @media only screen and (min-width: 970px) {
-	.btn.logo {
+	.movielogo {
 		
 		max-height: 120px;
 		
@@ -528,7 +527,7 @@ footer {
 }
 
 @media only screen and (min-width: 1170px) {
-	.btn.logo {
+	.movielogo {
 		
 		max-height: 140px;
 		

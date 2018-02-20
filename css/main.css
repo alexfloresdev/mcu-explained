@@ -138,21 +138,13 @@ header {
 	
 }
 
-.one {
-	margin-left: 6%;
+.main-title {
+	padding: 0px;
+	margin: 20px 0px;
+	height: 100%;
 }
 
-.two {
-	margin-left: 16%;
-}
 
-.three {
-	margin-left: 30%;
-}
-
-.explained {
-	float: right;
-}
 
 h1 {
 	font-size: 2.6rem;
@@ -486,31 +478,37 @@ footer {
 }
 
 @media only screen and (min-width: 425px) {
+/*
 
 		.one {
 			margin-left: 12%;
 		}
 
 		.two {
-			margin-left: 32%;
+			margin-left: 28%;
 		}
 
 		.three {
-			margin-left: 60%;
+			margin-left: 50%;
 		}
+*/
 	}
 
 @media only screen and (min-width: 750px) {
 	.one {
-		margin-left: 12%;
+		margin-left: 14%;
 	}
 
 	.two {
-		margin-left: 34%;
+		margin-left: 32%;
 	}
 
 	.three {
-		margin-left: 64%;
+		margin-left: 56%;
+	}
+	
+	.explained {
+		float: right;
 	}
 	
 	.movielogo {

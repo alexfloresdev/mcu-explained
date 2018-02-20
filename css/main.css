@@ -103,10 +103,14 @@ font-family: 'Raleway', sans-serif;
 font-family: 'Merriweather', serif;
 */
 
+html {
+	
+}
 
 
 body {
 	font-family: 'Merriweather', serif;
+	font-size: 18px;
 }
 
 h1, h2, h3, h4 {
@@ -122,7 +126,7 @@ img {
 }
 
 li {
-	margin: 10px 0px;
+	margin: 10px 0px 20px;
 }
 
 
@@ -134,12 +138,61 @@ header {
 	
 }
 
+.one {
+	margin-left: 8%;
+}
+
+.two {
+	margin-left: 22%;
+}
+
+.three {
+	margin-left: 40%;
+}
+
+h1 {
+	font-size: 2.6rem;
+}
+
+h2 {
+	font-size: 2.2rem;	
+}
+
+h3 {
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 1.4rem;
+	margin-top: 15px;
+	
+}
+
+.panel-title a {
+	font-size: 1.2rem;
+}
+
+.panel-title a:visited {
+	text-decoration: none;
+}
+
+
+.panel-title a:hover {
+	text-decoration: none;
+}
+
+.panel-title a:active {
+	text-decoration: none;
+}
+
+
+
 .movie-menu {
 	left: -67px;
 }
 
 .character-menu {
-	left: 40px;
+	left: 46px;
 }
 
 .dropdown-header {
@@ -155,6 +208,8 @@ header {
 
 .dropdown-menu li a {
 	color: white;
+	font-size: 1rem;
+	padding: 0px 10px;
 }
 
 .dropdown-menu li a:hover {
@@ -169,8 +224,8 @@ header {
 
 
 .btn-group>.btn+.dropdown-toggle {
-	padding-right: 30px;
-	padding-left: 30px;
+	padding-right: 25px;
+	padding-left: 25px;
 }
 
 .btn-group>.btn+.dropdown-toggle:hover {
@@ -204,7 +259,7 @@ button.btn.btn-primary {
 	background: white;
 	font-family: 'Raleway', sans-serif;
 	color: #780002;
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 }
 
 
@@ -221,6 +276,7 @@ button.btn.btn-primary:hover > a {
 
 button.btn.btn-primary a {
 	color: #780002;
+	
 	
 }
 
@@ -257,17 +313,7 @@ nav button.btn {
 	padding: 6px 0px;
 }
 
-.one {
-	margin-left: 12%;
-}
 
-.two {
-	margin-left: 34%;
-}
-
-.three {
-	margin-left: 58%;
-}
 
 .panel-body {
 	padding: 16px 0px;
@@ -310,6 +356,8 @@ nav button.btn {
 .phase-section {
 	margin-bottom: 50px;
 }
+
+
 
 /* ==========================================================================
    Helper classes
@@ -407,7 +455,40 @@ nav button.btn {
 		max-width: 570px;
 		margin: auto;
 	}
+	
+	
 }
+
+@media only screen and (min-width: 425px) {
+
+		.one {
+			margin-left: 12%;
+		}
+
+		.two {
+			margin-left: 32%;
+		}
+
+		.three {
+			margin-left: 60%;
+		}
+	}
+
+@media only screen and (min-width: 768px) {
+	.one {
+		margin-left: 12%;
+	}
+
+	.two {
+		margin-left: 34%;
+	}
+
+	.three {
+		margin-left: 64%;
+	}
+	
+}
+
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */

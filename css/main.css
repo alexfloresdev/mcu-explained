@@ -314,6 +314,12 @@ nav button.btn {
 	margin-bottom: 20px;
 }
 
+.characterlogo {
+	padding: 15px 0px;
+	max-height: 254px;
+	overflow: hidden;
+}
+
 
 /*
 .characterlogo {
@@ -517,6 +523,10 @@ footer {
 		
 	}
 	
+	.characterlogo {
+		max-height: 120px;
+	}
+	
 }
 
 @media only screen and (min-width: 970px) {
@@ -524,6 +534,10 @@ footer {
 		
 		max-height: 120px;
 		
+	}
+	
+	.characterlogo {
+			max-height: 165px;
 	}
 	
 }

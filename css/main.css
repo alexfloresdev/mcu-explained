@@ -500,7 +500,7 @@ footer {
 */
 	}
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 768px) {
 	.one {
 		margin-left: 14%;
 	}
@@ -529,7 +529,7 @@ footer {
 	
 }
 
-@media only screen and (min-width: 970px) {
+@media only screen and (min-width: 992px) {
 	.movielogo {
 		
 		max-height: 120px;
@@ -545,8 +545,12 @@ footer {
 @media only screen and (min-width: 1170px) {
 	.movielogo {
 		
-		max-height: 140px;
+		max-height: 150px;
 		
+	}
+	
+	.characterlogo {
+			max-height: 180px;
 	}
 	
 }

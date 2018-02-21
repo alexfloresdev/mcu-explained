@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>Minimum Bootstrap HTML Skeleton</title>
+
+	<!--  -->
+
+	<style>
+
+	</style>
+
+</head>
+
+<body>
+
+	<div class="container">
+	
+		
+		<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true"> 
+			
+			<div class="panel panel-default">
+				
+				
+				<div class="panel-heading" role="tab" id="headingOne">
+					<h4 class="panel-title">
+					
+<!--						by removing the data-parent with a hashtag of accordion I can have it just open up on its own without collapsing anything else-->
+						<a href="#exoticpets" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="exoticpets">
+							Exotic Pets
+						</a>
+					</h4>	
+				</div> <!--panel heading div -->
+			
+<!--					add IN to the class below to have it be automatically opened up-->
+				<div class="panel-collapse collapse" id="exoticpets" role="tabpanel" arialabelledby="headingOne">
+					
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat pariatur voluptatibus labore dignissimos sint nobis vero, neque dolore vitae nulla!</p>
+					</div> <!--panel body div -->
+				
+				</div> <!--panel-collapse collapse div where the content goes-->
+			
+			</div> <!--panel panel-default div-->
+			
+			
+			<div class="panel panel-default">
+				<div class="panel-heading" role="tab" id="headingTwo">
+					<h4 class="panel-title">
+						<a href="#generalhealth" role="button" data-toggle="collapse" data-parent="#accordion" aria-expanded="false" aria-controls="generalhealth">
+							General Health
+						</a>
+					</h4>	
+				</div> <!--panel heading div -->
+			
+			
+				<div class="panel-collapse collapse" id="generalhealth" role="tabpanel" arialabelledby="headingTwo">
+					
+					<div class="panel-body">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat pariatur voluptatibus labore dignissimos sint nobis vero, neque dolore vitae nulla!</p>
+					</div> <!--panel body div -->
+				
+				</div> <!--panel-collapse collapse div where the content goes-->
+			
+			</div> <!--panel panel-default div-->
+		
+		
+		
+		
+		</div> <!--panel-group div -->
+		
+			
+		
+		
+
+
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>

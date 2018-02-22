@@ -383,6 +383,21 @@ footer {
 	margin: 500px;
 }
 
+
+summary {
+	padding: 10px;
+/*	background-color: #b6b9b2;*/
+	color: #780002;
+	margin: 10px 0px;
+	border-radius: 3px;
+}
+
+details summary::-webkit-details-marker {
+/*  background: #ddd;*/
+  color: #780002;
+  font-size: 100%;
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */

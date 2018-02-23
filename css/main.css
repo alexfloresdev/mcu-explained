@@ -386,10 +386,13 @@ footer {
 
 summary {
 	padding: 10px;
-/*	background-color: #b6b9b2;*/
-	color: #780002;
-	margin: 10px 0px;
-	border-radius: 3px;
+	background-color: #ddd;
+/*	color: #780002; */
+	
+	font-family: 'Raleway', sans-serif;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #780002;
 }
 
 details summary::-webkit-details-marker {
@@ -397,6 +400,16 @@ details summary::-webkit-details-marker {
   color: #780002;
   font-size: 100%;
 }
+
+details ul {
+/*	background-color: #ddd;*/
+	margin-bottom: 10px;
+}
+
+details ul li {
+	margin: 0px 0px;
+	padding: 10px 0px;
+} 
 
 /* ==========================================================================
    Helper classes
